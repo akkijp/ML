@@ -1,7 +1,7 @@
 {
     "private": true,
     "dependencies": {
-      "@theia/callhierarchy": "next",
+      "@≈≈/callhierarchy": "next",
       "@theia/file-search": "next",
       "@theia/git": "next",
       "@theia/markers": "next",

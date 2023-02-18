@@ -1,5 +1,4 @@
 #!/bin/bash
 
-docker compose stop
-docker compose rm -f
+echo Launch...
 docker compose up --build -d

@@ -1,6 +1,10 @@
 FROM jupyter/datascience-notebook:ubuntu-22.04
 ARG DEBIAN_FRONTEND=noninteractive
+ENV TZ=Asia/Tokyo
 EXPOSE 8888
+
+RUN conda install -c conda-forge jupyterlab-git
+RUN conda install -c pytorch pytorch torchvision
 
 # # パッケージの追加とタイムゾーンの設定
 # # 必要に応じてインストールするパッケージを追加してください
@@ -10,9 +14,6 @@ EXPOSE 8888
 # &&  ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime \
 # &&  apt-get clean \
 # &&  rm -rf /var/lib/apt/lists/*
-
-ENV TZ=Asia/Tokyo
-RUN conda install -c conda-forge jupyterlab-git
 
 # # JupyterLab関連のパッケージ（いくつかの拡張機能を含む）
 # # 必要に応じて、JupyterLabの拡張機能などを追加してください

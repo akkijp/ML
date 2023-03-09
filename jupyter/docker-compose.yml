@@ -1,5 +1,15 @@
 version: "3.9"
 services:
+  test:
+    image: tensorflow/tensorflow:latest-gpu
+    command: python -c "import tensorflow as tf;tf.test.gpu_device_name()"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
+
   jupyterlab:
     build:
       context: ./jupyterlab
@@ -28,5 +38,5 @@ services:
       resources:
         reservations:
           devices:
-            - capabilities:
-              - gpu
+            - driver: nvidia
+              capabilities: [gpu]

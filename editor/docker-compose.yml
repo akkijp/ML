@@ -6,7 +6,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - .:/home/project
+      - ../:/home/project
     restart: always
     environment:
       - THEIA_WEBVIEW_EXTERNAL_ENDPOINT=http://192.168.3.12:3000

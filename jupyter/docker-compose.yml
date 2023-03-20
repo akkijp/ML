@@ -29,7 +29,7 @@ services:
       --NotebookApp.password=''
       --notebook-dir=/workspace
     ports:
-      - 8000:8888
+      - 8888:8888
     volumes:
       - ./jupyterlab/root_jupyter:/root/.jupyter
       - ./workspace:/workspace

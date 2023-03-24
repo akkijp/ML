@@ -86,6 +86,11 @@ mv ${ROOT}/style.css ${ROOT}/user.css
 sed -i 's/in_app_dir = .*/in_app_dir = True/g' /usr/local/lib/python3.10/site-packages/gradio/routes.py
 EOF
 
+RUN apt-get update \
+    && apt-get -y --no-install-recommends install ffmpeg \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR ${ROOT}
 ENV CLI_ARGS=""
 EXPOSE 7860

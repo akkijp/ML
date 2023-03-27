@@ -16,7 +16,7 @@ services:
 
   jupyterlab:
     build:
-      context: ./jupyterlab
+      context: ./jupyterlab-workspace
       dockerfile: ./Dockerfile
     restart: always
     entrypoint: >

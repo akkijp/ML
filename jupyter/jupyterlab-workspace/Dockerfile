@@ -1,9 +1,9 @@
-FROM akkijp/jupyter-jupyterlab:20230328-214450
+FROM akkijp/jupyter-jupyterlab:20230324-003101
 
 USER root
 
 # https://y-ni-shi.hatenablog.com/entry/2022/01/03/135000
-SHELL ["/bin/bash", "-oeux", "pipefail", "-c"]
+# SHELL ["/bin/bash", "-oeux", "pipefail", "-c"]
 
 ########################################################
 # Common
@@ -74,6 +74,6 @@ RUN conda install -y -c huggingface transformers
 # ########################################################
 # change jovyan
 # RUN chown -R "${NB_USER}:${NB_GID}" "/home/${NB_USER}"
-SHELL ["/bin/sh", "-c"]
-USER ${NB_UID}
+# SHELL ["/bin/sh", "-c"]
+# USER ${NB_UID}
 # RUN conda activate base

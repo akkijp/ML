@@ -1,4 +1,4 @@
-FROM akkijp/jupyter-jupyterlab:latest
+FROM akkijp/jupyter-jupyterlab:20230324-003101
 
 USER root
 
@@ -72,7 +72,8 @@ RUN conda install -y -c huggingface transformers
 # ########################################################
 # # change to default
 # ########################################################
-SHELL ["/bin/sh", "-c"]
-# # change jovyan
+# change jovyan
+RUN chown -R "${NB_USER}:${NB_GID}" "/home/${NB_USER}"
+SHELL ["/bin/bash", "-c"]
 USER ${NB_UID}
 # RUN conda activate base

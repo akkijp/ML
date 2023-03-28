@@ -35,6 +35,7 @@ services:
       - ./workspace:/workspace
       - ./workspace/user-settings:/home/jovyan/.jupyter/lab/user-settings
       - /tmp/cache:/home/jovyan/.cache
+      - /home/akki/huggingface/rwkv/BlinkDL:/workspace/huggingface/BlinkDL
 
     # GPUを使う場合の設定
     environment:

@@ -31,11 +31,10 @@ services:
     ports:
       - 8888:8888
     volumes:
-      - ./jupyterlab/root_jupyter:/root/.jupyter
       - ./workspace:/workspace
       - ./workspace/user-settings:/home/jovyan/.jupyter/lab/user-settings
-      - /tmp/cache:/home/jovyan/.cache
       - /home/akki/huggingface/rwkv/BlinkDL:/workspace/huggingface/BlinkDL
+      - /tmp/cache:/home/jovyan/.cache
 
     # GPUを使う場合の設定
     environment:

@@ -1,4 +1,4 @@
-FROM akkijp/jupyter-jupyterlab:20230324-003101
+FROM akkijp/jupyter-jupyterlab
 
 USER root
 
@@ -34,10 +34,12 @@ RUN apt-get update \
 # change jovyan
 USER ${NB_UID}
 
+
 # Basic
-RUN conda install -y -c conda-forge jupyterlab-git nodejs
-RUN conda install -y -c huggingface transformers
+# RUN conda install -y -c conda-forge jupyterlab-git nodejs
+# RUN conda install -y -c huggingface transformers
 # RUN conda install -y sentencepiece
+
 
 ########################################################
 # python 3.9 環境作成 (未完成)

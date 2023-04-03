@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  voicevox:
+    image: voicevox/voicevox_engine:nvidia-ubuntu20.04-latest
+    restart: always
+    ports:
+      - 50021:50021
+    # GPUを使う場合の設定
+    environment:
+      - "NVIDIA_VISIBLE_DEVICES=all"
+      - "NVIDIA_DRIVER_CAPABILITIES=all"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities:
+                - gpu
+                - utility # nvidia-smi
+                - compute # CUDA. Required to avoid "CUDA version: N/A"
+                - video   # NVDEC/NVENC. For instance to use a hardware accelerated ffmpeg. Skip it if you don't need it

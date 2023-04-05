@@ -31,6 +31,11 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+RUN sudo apt-get update \
+    && apt-get -y --no-install-recommends install libopenmpi-dev \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
 # change jovyan
 USER ${NB_UID}
 
@@ -68,8 +73,6 @@ USER ${NB_UID}
 #  && pip install --no-cache-dir torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118
 
 # RUN ipython kernel install --user --name=py39
-
-
 
 # ########################################################
 # # change to default

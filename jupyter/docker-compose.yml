@@ -30,6 +30,7 @@ services:
       --notebook-dir=/workspace
     ports:
       - 8888:8888
+      - 8889:8889
     volumes:
       - ./workspace:/workspace
       - ./workspace/user-settings:/home/jovyan/.jupyter/lab/user-settings

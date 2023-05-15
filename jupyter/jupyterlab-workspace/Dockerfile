@@ -36,9 +36,18 @@ RUN sudo apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+RUN sudo apt-get update \
+    && apt-get -y --no-install-recommends install tzdata \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN sudo apt-get update \
+    && apt-get -y --no-install-recommends install git-lfs \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
 # change jovyan
 USER ${NB_UID}
-
 
 # Basic
 # RUN conda install -y -c conda-forge jupyterlab-git nodejs

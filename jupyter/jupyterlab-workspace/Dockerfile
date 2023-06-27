@@ -46,6 +46,11 @@ RUN sudo apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+RUN sudo apt-get update \
+    && apt-get -y --no-install-recommends install portaudio19-dev python3-pyaudio \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
 # change jovyan
 USER ${NB_UID}
 

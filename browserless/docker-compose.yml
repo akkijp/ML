@@ -5,7 +5,7 @@ services:
     environment:
       - DEBUG=browserless:*
       - MAX_CONCURRENT_SESSIONS=10
-      - CONNECTION_TIMEOUT=60000
+      - CONNECTION_TIMEOUT=600000
       - MAX_QUEUE_LENGTH=20
       - HOST=0.0.0.0
       - PORT=3001

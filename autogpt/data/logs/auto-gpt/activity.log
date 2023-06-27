@@ -1,0 +1,316 @@
+2023-06-27 15:11:47,393 WARNING  plugins_config.yaml does not exist, creating base config.
+2023-06-27 15:11:48,771 INFO NEWS: Welcome to Auto-GPT!
+2023-06-27 15:11:48,771 INFO NEWS: Below you'll find the latest Auto-GPT News and updates regarding features!
+2023-06-27 15:11:48,771 INFO NEWS: If you don't wish to see this message, you can run Auto-GPT with the --skip-news flag.
+2023-06-27 15:11:48,771 INFO NEWS: 
+2023-06-27 15:11:48,771 INFO NEWS: ::NEW BULLETIN::
+2023-06-27 15:11:48,771 INFO NEWS: 
+2023-06-27 15:11:48,771 INFO NEWS: Website and Documentation Site 📰📖
+2023-06-27 15:11:48,771 INFO NEWS: Check out https://agpt.co, the official news & updates site for Auto-GPT!
+2023-06-27 15:11:48,772 INFO NEWS: The documentation also has a place here, at https://docs.agpt.co
+2023-06-27 15:11:48,772 INFO NEWS: 
+2023-06-27 15:11:48,772 INFO NEWS: For contributors 👷🏼
+2023-06-27 15:11:48,772 INFO NEWS: Since releasing v0.3.0, whave been working on re-architecting the Auto-GPT core to make it more extensible and make room for structural performance-oriented R&D.
+2023-06-27 15:11:48,772 INFO NEWS: 
+2023-06-27 15:11:48,772 INFO NEWS: Check out the contribution guide on our wiki:
+2023-06-27 15:11:48,772 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/wiki/Contributing
+2023-06-27 15:11:48,772 INFO NEWS: 
+2023-06-27 15:11:48,772 INFO NEWS: 🚀 v0.4.1 Release 🚀
+2023-06-27 15:11:48,772 INFO NEWS: Two weeks and 50+ pull requests have passed since v0.4.0, and we are happy to announce the release of v0.4.1!
+2023-06-27 15:11:48,772 INFO NEWS: 
+2023-06-27 15:11:48,772 INFO NEWS: Highlights and notable changes since v0.4.0:
+2023-06-27 15:11:48,772 INFO NEWS: - The .env.template is more readable and better explains the purpose of each environment variable.
+2023-06-27 15:11:48,772 INFO NEWS: - More dependable search
+2023-06-27 15:11:48,773 INFO NEWS:     - The CUSTOM_SEARCH_ENGINE_ID variable has been replaced to GOOGLE_CUSTOM_SEARCH_ENGINE_ID, make sure you update it.
+2023-06-27 15:11:48,773 INFO NEWS: - Better read_file
+2023-06-27 15:11:48,773 INFO NEWS: - More reliable python code execution
+2023-06-27 15:11:48,773 INFO NEWS: - Lots of JSON error fixes
+2023-06-27 15:11:48,773 INFO NEWS: - Directory-based plugins
+2023-06-27 15:11:48,773 INFO NEWS: 
+2023-06-27 15:11:48,773 INFO NEWS: Further fixes and changes 🛠️
+2023-06-27 15:11:48,773 INFO NEWS: Under the hood, we've done a bunch of work improving architectures and streamlining code. Most of that won't be user-visible
+2023-06-27 15:11:48,773 INFO NEWS: 
+2023-06-27 15:11:48,773 INFO NEWS: Take a look at the Release Notes on Github for the full changelog!
+2023-06-27 15:11:48,773 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/releases
+2023-06-27 15:11:48,773 INFO NEWS: 
+2023-06-27 15:11:52,042 INFO Welcome to Auto-GPT!  run with '--help' for more information.
+2023-06-27 15:11:52,322 INFO Create an AI-Assistant: input '--manual' to enter manual mode.
+2023-06-27 15:11:52,571 INFO  Asking user via keyboard...
+2023-06-27 15:12:05,429 INFO NOTE:All files/directories created by this agent can be found inside its workspace at: /app/autogpt/auto_gpt_workspace
+2023-06-27 15:12:05,772 INFO AutoGPTWikiGPT has been created with the following details:
+2023-06-27 15:12:06,001 INFO Name: AutoGPTWikiGPT
+2023-06-27 15:12:06,076 INFO Role: an autonomous agent designed to assist in the creation of Wikipedia-style articles for various topics. Specifically, it is trained to generate high-quality content for the Auto-GPT project on GitHub.
+2023-06-27 15:12:06,557 INFO Goals: 
+2023-06-27 15:12:06,632 INFO - Utilize its natural language processing capabilities to generate informative and accurate content about the Auto-GPT project.
+2023-06-27 15:12:06,987 INFO - Ensure that the content is well-structured and follows the standard format of Wikipedia-style articles.
+2023-06-27 15:12:07,280 INFO - Incorporate relevant keywords and phrases to optimize the article for search engine rankings.
+2023-06-27 15:12:07,638 INFO - Continuously learn and improve its content generation abilities through feedback and analysis of user interactions.
+2023-06-27 15:12:08,036 INFO - Provide a seamless and efficient experience for users by automating the majority of the article creation process.
+2023-06-27 15:12:18,780 INFO NEWS: Welcome to Auto-GPT!
+2023-06-27 15:12:18,780 INFO NEWS: Below you'll find the latest Auto-GPT News and updates regarding features!
+2023-06-27 15:12:18,781 INFO NEWS: If you don't wish to see this message, you can run Auto-GPT with the --skip-news flag.
+2023-06-27 15:12:18,781 INFO NEWS: 
+2023-06-27 15:12:18,781 INFO NEWS: Website and Documentation Site 📰📖
+2023-06-27 15:12:18,781 INFO NEWS: Check out https://agpt.co, the official news & updates site for Auto-GPT!
+2023-06-27 15:12:18,781 INFO NEWS: The documentation also has a place here, at https://docs.agpt.co
+2023-06-27 15:12:18,781 INFO NEWS: 
+2023-06-27 15:12:18,781 INFO NEWS: For contributors 👷🏼
+2023-06-27 15:12:18,781 INFO NEWS: Since releasing v0.3.0, whave been working on re-architecting the Auto-GPT core to make it more extensible and make room for structural performance-oriented R&D.
+2023-06-27 15:12:18,781 INFO NEWS: 
+2023-06-27 15:12:18,781 INFO NEWS: Check out the contribution guide on our wiki:
+2023-06-27 15:12:18,781 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/wiki/Contributing
+2023-06-27 15:12:18,781 INFO NEWS: 
+2023-06-27 15:12:18,781 INFO NEWS: 🚀 v0.4.1 Release 🚀
+2023-06-27 15:12:18,781 INFO NEWS: Two weeks and 50+ pull requests have passed since v0.4.0, and we are happy to announce the release of v0.4.1!
+2023-06-27 15:12:18,781 INFO NEWS: 
+2023-06-27 15:12:18,781 INFO NEWS: Highlights and notable changes since v0.4.0:
+2023-06-27 15:12:18,781 INFO NEWS: - The .env.template is more readable and better explains the purpose of each environment variable.
+2023-06-27 15:12:18,781 INFO NEWS: - More dependable search
+2023-06-27 15:12:18,781 INFO NEWS:     - The CUSTOM_SEARCH_ENGINE_ID variable has been replaced to GOOGLE_CUSTOM_SEARCH_ENGINE_ID, make sure you update it.
+2023-06-27 15:12:18,781 INFO NEWS: - Better read_file
+2023-06-27 15:12:18,781 INFO NEWS: - More reliable python code execution
+2023-06-27 15:12:18,781 INFO NEWS: - Lots of JSON error fixes
+2023-06-27 15:12:18,781 INFO NEWS: - Directory-based plugins
+2023-06-27 15:12:18,781 INFO NEWS: 
+2023-06-27 15:12:18,782 INFO NEWS: Further fixes and changes 🛠️
+2023-06-27 15:12:18,782 INFO NEWS: Under the hood, we've done a bunch of work improving architectures and streamlining code. Most of that won't be user-visible
+2023-06-27 15:12:18,782 INFO NEWS: 
+2023-06-27 15:12:18,782 INFO NEWS: Take a look at the Release Notes on Github for the full changelog!
+2023-06-27 15:12:18,782 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/releases
+2023-06-27 15:12:18,782 INFO NEWS: 
+2023-06-27 15:12:18,976 INFO Welcome back!  Would you like me to return to being AutoGPTWikiGPT?
+2023-06-27 15:12:19,235 INFO  Asking user via keyboard...
+2023-06-27 15:12:24,829 INFO Welcome to Auto-GPT!  run with '--help' for more information.
+2023-06-27 15:12:25,094 INFO Create an AI-Assistant: input '--manual' to enter manual mode.
+2023-06-27 15:12:25,316 INFO  Asking user via keyboard...
+2023-06-27 15:12:30,966 INFO NEWS: Welcome to Auto-GPT!
+2023-06-27 15:12:30,967 INFO NEWS: Below you'll find the latest Auto-GPT News and updates regarding features!
+2023-06-27 15:12:30,967 INFO NEWS: If you don't wish to see this message, you can run Auto-GPT with the --skip-news flag.
+2023-06-27 15:12:30,967 INFO NEWS: 
+2023-06-27 15:12:30,967 INFO NEWS: Website and Documentation Site 📰📖
+2023-06-27 15:12:30,967 INFO NEWS: Check out https://agpt.co, the official news & updates site for Auto-GPT!
+2023-06-27 15:12:30,967 INFO NEWS: The documentation also has a place here, at https://docs.agpt.co
+2023-06-27 15:12:30,967 INFO NEWS: 
+2023-06-27 15:12:30,967 INFO NEWS: For contributors 👷🏼
+2023-06-27 15:12:30,967 INFO NEWS: Since releasing v0.3.0, whave been working on re-architecting the Auto-GPT core to make it more extensible and make room for structural performance-oriented R&D.
+2023-06-27 15:12:30,967 INFO NEWS: 
+2023-06-27 15:12:30,967 INFO NEWS: Check out the contribution guide on our wiki:
+2023-06-27 15:12:30,967 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/wiki/Contributing
+2023-06-27 15:12:30,967 INFO NEWS: 
+2023-06-27 15:12:30,967 INFO NEWS: 🚀 v0.4.1 Release 🚀
+2023-06-27 15:12:30,968 INFO NEWS: Two weeks and 50+ pull requests have passed since v0.4.0, and we are happy to announce the release of v0.4.1!
+2023-06-27 15:12:30,968 INFO NEWS: 
+2023-06-27 15:12:30,968 INFO NEWS: Highlights and notable changes since v0.4.0:
+2023-06-27 15:12:30,968 INFO NEWS: - The .env.template is more readable and better explains the purpose of each environment variable.
+2023-06-27 15:12:30,968 INFO NEWS: - More dependable search
+2023-06-27 15:12:30,968 INFO NEWS:     - The CUSTOM_SEARCH_ENGINE_ID variable has been replaced to GOOGLE_CUSTOM_SEARCH_ENGINE_ID, make sure you update it.
+2023-06-27 15:12:30,968 INFO NEWS: - Better read_file
+2023-06-27 15:12:30,968 INFO NEWS: - More reliable python code execution
+2023-06-27 15:12:30,968 INFO NEWS: - Lots of JSON error fixes
+2023-06-27 15:12:30,968 INFO NEWS: - Directory-based plugins
+2023-06-27 15:12:30,968 INFO NEWS: 
+2023-06-27 15:12:30,968 INFO NEWS: Further fixes and changes 🛠️
+2023-06-27 15:12:30,968 INFO NEWS: Under the hood, we've done a bunch of work improving architectures and streamlining code. Most of that won't be user-visible
+2023-06-27 15:12:30,968 INFO NEWS: 
+2023-06-27 15:12:30,968 INFO NEWS: Take a look at the Release Notes on Github for the full changelog!
+2023-06-27 15:12:30,968 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/releases
+2023-06-27 15:12:30,969 INFO NEWS: 
+2023-06-27 15:12:31,166 INFO Welcome back!  Would you like me to return to being AutoGPTWikiGPT?
+2023-06-27 15:12:31,436 INFO  Asking user via keyboard...
+2023-06-27 15:12:41,718 INFO NOTE:All files/directories created by this agent can be found inside its workspace at: /app/autogpt/auto_gpt_workspace
+2023-06-27 15:12:42,018 INFO AutoGPTWikiGPT has been created with the following details:
+2023-06-27 15:12:42,258 INFO Name: AutoGPTWikiGPT
+2023-06-27 15:12:42,328 INFO Role: an autonomous agent designed to assist in the creation of Wikipedia-style articles for various topics. Specifically, it is trained to generate high-quality content for the Auto-GPT project on GitHub.
+2023-06-27 15:12:42,773 INFO Goals: 
+2023-06-27 15:12:42,815 INFO - Utilize its natural language processing capabilities to generate informative and accurate content about the Auto-GPT project.
+2023-06-27 15:12:43,215 INFO - Ensure that the content is well-structured and follows the standard format of Wikipedia-style articles.
+2023-06-27 15:12:43,598 INFO - Incorporate relevant keywords and phrases to optimize the article for search engine rankings.
+2023-06-27 15:12:43,902 INFO - Continuously learn and improve its content generation abilities through feedback and analysis of user interactions.
+2023-06-27 15:12:44,222 INFO - Provide a seamless and efficient experience for users by automating the majority of the article creation process.
+2023-06-27 15:14:07,491 INFO NEWS: Welcome to Auto-GPT!
+2023-06-27 15:14:07,491 INFO NEWS: Below you'll find the latest Auto-GPT News and updates regarding features!
+2023-06-27 15:14:07,491 INFO NEWS: If you don't wish to see this message, you can run Auto-GPT with the --skip-news flag.
+2023-06-27 15:14:07,491 INFO NEWS: 
+2023-06-27 15:14:07,491 INFO NEWS: Website and Documentation Site 📰📖
+2023-06-27 15:14:07,491 INFO NEWS: Check out https://agpt.co, the official news & updates site for Auto-GPT!
+2023-06-27 15:14:07,491 INFO NEWS: The documentation also has a place here, at https://docs.agpt.co
+2023-06-27 15:14:07,491 INFO NEWS: 
+2023-06-27 15:14:07,491 INFO NEWS: For contributors 👷🏼
+2023-06-27 15:14:07,491 INFO NEWS: Since releasing v0.3.0, whave been working on re-architecting the Auto-GPT core to make it more extensible and make room for structural performance-oriented R&D.
+2023-06-27 15:14:07,492 INFO NEWS: 
+2023-06-27 15:14:07,492 INFO NEWS: Check out the contribution guide on our wiki:
+2023-06-27 15:14:07,492 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/wiki/Contributing
+2023-06-27 15:14:07,492 INFO NEWS: 
+2023-06-27 15:14:07,492 INFO NEWS: 🚀 v0.4.1 Release 🚀
+2023-06-27 15:14:07,492 INFO NEWS: Two weeks and 50+ pull requests have passed since v0.4.0, and we are happy to announce the release of v0.4.1!
+2023-06-27 15:14:07,492 INFO NEWS: 
+2023-06-27 15:14:07,492 INFO NEWS: Highlights and notable changes since v0.4.0:
+2023-06-27 15:14:07,492 INFO NEWS: - The .env.template is more readable and better explains the purpose of each environment variable.
+2023-06-27 15:14:07,492 INFO NEWS: - More dependable search
+2023-06-27 15:14:07,492 INFO NEWS:     - The CUSTOM_SEARCH_ENGINE_ID variable has been replaced to GOOGLE_CUSTOM_SEARCH_ENGINE_ID, make sure you update it.
+2023-06-27 15:14:07,492 INFO NEWS: - Better read_file
+2023-06-27 15:14:07,492 INFO NEWS: - More reliable python code execution
+2023-06-27 15:14:07,492 INFO NEWS: - Lots of JSON error fixes
+2023-06-27 15:14:07,492 INFO NEWS: - Directory-based plugins
+2023-06-27 15:14:07,493 INFO NEWS: 
+2023-06-27 15:14:07,493 INFO NEWS: Further fixes and changes 🛠️
+2023-06-27 15:14:07,493 INFO NEWS: Under the hood, we've done a bunch of work improving architectures and streamlining code. Most of that won't be user-visible
+2023-06-27 15:14:07,493 INFO NEWS: 
+2023-06-27 15:14:07,493 INFO NEWS: Take a look at the Release Notes on Github for the full changelog!
+2023-06-27 15:14:07,493 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/releases
+2023-06-27 15:14:07,493 INFO NEWS: 
+2023-06-27 15:14:07,716 INFO Welcome back!  Would you like me to return to being AutoGPTWikiGPT?
+2023-06-27 15:14:07,963 INFO  Asking user via keyboard...
+2023-06-27 15:14:16,944 INFO Welcome to Auto-GPT!  run with '--help' for more information.
+2023-06-27 15:14:17,213 INFO Create an AI-Assistant: input '--manual' to enter manual mode.
+2023-06-27 15:14:17,444 INFO  Asking user via keyboard...
+2023-06-27 15:14:29,453 INFO NOTE:All files/directories created by this agent can be found inside its workspace at: /app/autogpt/auto_gpt_workspace
+2023-06-27 15:14:29,773 INFO AutoGPTWikiGPT has been created with the following details:
+2023-06-27 15:14:30,022 INFO Name: AutoGPTWikiGPT
+2023-06-27 15:14:30,134 INFO Role: an autonomous agent designed to assist in the creation of Wikipedia-style articles for various topics. Specifically, it is trained to generate high-quality content for the Auto-GPT project on GitHub.
+2023-06-27 15:14:30,589 INFO Goals: 
+2023-06-27 15:14:30,674 INFO - Utilize its natural language processing capabilities to generate informative and accurate content about the Auto-GPT project.
+2023-06-27 15:14:31,057 INFO - Ensure that the content is well-structured and follows the standard format of Wikipedia-style articles.
+2023-06-27 15:14:31,396 INFO - Incorporate relevant keywords and phrases to optimize the article for search engine rankings.
+2023-06-27 15:14:31,717 INFO - Continuously learn and improve its content generation abilities through feedback and analysis of user interactions.
+2023-06-27 15:14:32,101 INFO - Provide a seamless and efficient experience for users by automating the majority of the article creation process.
+2023-06-27 15:17:23,621 WARNING  plugins_config.yaml does not exist, creating base config.
+2023-06-27 15:17:24,878 INFO NEWS: Welcome to Auto-GPT!
+2023-06-27 15:17:24,878 INFO NEWS: Below you'll find the latest Auto-GPT News and updates regarding features!
+2023-06-27 15:17:24,878 INFO NEWS: If you don't wish to see this message, you can run Auto-GPT with the --skip-news flag.
+2023-06-27 15:17:24,879 INFO NEWS: 
+2023-06-27 15:17:24,879 INFO NEWS: ::NEW BULLETIN::
+2023-06-27 15:17:24,879 INFO NEWS: 
+2023-06-27 15:17:24,879 INFO NEWS: Website and Documentation Site 📰📖
+2023-06-27 15:17:24,879 INFO NEWS: Check out https://agpt.co, the official news & updates site for Auto-GPT!
+2023-06-27 15:17:24,879 INFO NEWS: The documentation also has a place here, at https://docs.agpt.co
+2023-06-27 15:17:24,879 INFO NEWS: 
+2023-06-27 15:17:24,879 INFO NEWS: For contributors 👷🏼
+2023-06-27 15:17:24,879 INFO NEWS: Since releasing v0.3.0, whave been working on re-architecting the Auto-GPT core to make it more extensible and make room for structural performance-oriented R&D.
+2023-06-27 15:17:24,879 INFO NEWS: 
+2023-06-27 15:17:24,879 INFO NEWS: Check out the contribution guide on our wiki:
+2023-06-27 15:17:24,879 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/wiki/Contributing
+2023-06-27 15:17:24,879 INFO NEWS: 
+2023-06-27 15:17:24,879 INFO NEWS: 🚀 v0.4.1 Release 🚀
+2023-06-27 15:17:24,879 INFO NEWS: Two weeks and 50+ pull requests have passed since v0.4.0, and we are happy to announce the release of v0.4.1!
+2023-06-27 15:17:24,879 INFO NEWS: 
+2023-06-27 15:17:24,879 INFO NEWS: Highlights and notable changes since v0.4.0:
+2023-06-27 15:17:24,879 INFO NEWS: - The .env.template is more readable and better explains the purpose of each environment variable.
+2023-06-27 15:17:24,879 INFO NEWS: - More dependable search
+2023-06-27 15:17:24,879 INFO NEWS:     - The CUSTOM_SEARCH_ENGINE_ID variable has been replaced to GOOGLE_CUSTOM_SEARCH_ENGINE_ID, make sure you update it.
+2023-06-27 15:17:24,879 INFO NEWS: - Better read_file
+2023-06-27 15:17:24,879 INFO NEWS: - More reliable python code execution
+2023-06-27 15:17:24,879 INFO NEWS: - Lots of JSON error fixes
+2023-06-27 15:17:24,879 INFO NEWS: - Directory-based plugins
+2023-06-27 15:17:24,879 INFO NEWS: 
+2023-06-27 15:17:24,880 INFO NEWS: Further fixes and changes 🛠️
+2023-06-27 15:17:24,880 INFO NEWS: Under the hood, we've done a bunch of work improving architectures and streamlining code. Most of that won't be user-visible
+2023-06-27 15:17:24,880 INFO NEWS: 
+2023-06-27 15:17:24,880 INFO NEWS: Take a look at the Release Notes on Github for the full changelog!
+2023-06-27 15:17:24,880 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/releases
+2023-06-27 15:17:24,880 INFO NEWS: 
+2023-06-27 15:17:37,434 INFO Welcome to Auto-GPT!  run with '--help' for more information.
+2023-06-27 15:17:37,680 INFO Create an AI-Assistant: input '--manual' to enter manual mode.
+2023-06-27 15:17:37,900 INFO  Asking user via keyboard...
+2023-06-27 15:18:34,862 INFO NOTE:All files/directories created by this agent can be found inside its workspace at: /app/autogpt/auto_gpt_workspace
+2023-06-27 15:18:35,127 INFO YTTitleGPT has been created with the following details:
+2023-06-27 15:18:35,311 INFO Name: YTTitleGPT
+2023-06-27 15:18:35,391 INFO Role: an AI assistant that helps YouTubers create catchy and engaging titles for their videos to increase views and subscribers.
+2023-06-27 15:18:35,731 INFO Goals: 
+2023-06-27 15:18:35,789 INFO - Analyze the content of your video and suggest relevant and attention-grabbing keywords to include in the title.
+2023-06-27 15:18:36,134 INFO - Provide multiple title options with varying lengths and styles to choose from.
+2023-06-27 15:18:36,439 INFO - Use data-driven insights to optimize the title for search engine optimization (SEO) and increase discoverability.
+2023-06-27 15:18:36,837 INFO - Continuously learn and adapt to your preferences and audience feedback to improve the effectiveness of title suggestions.
+2023-06-27 15:18:37,202 INFO - Offer additional tips and best practices for creating compelling titles that resonate with your target audience.
+2023-06-27 15:19:00,199 INFO NEWS: Welcome to Auto-GPT!
+2023-06-27 15:19:00,200 INFO NEWS: Below you'll find the latest Auto-GPT News and updates regarding features!
+2023-06-27 15:19:00,200 INFO NEWS: If you don't wish to see this message, you can run Auto-GPT with the --skip-news flag.
+2023-06-27 15:19:00,200 INFO NEWS: 
+2023-06-27 15:19:00,200 INFO NEWS: Website and Documentation Site 📰📖
+2023-06-27 15:19:00,200 INFO NEWS: Check out https://agpt.co, the official news & updates site for Auto-GPT!
+2023-06-27 15:19:00,200 INFO NEWS: The documentation also has a place here, at https://docs.agpt.co
+2023-06-27 15:19:00,200 INFO NEWS: 
+2023-06-27 15:19:00,200 INFO NEWS: For contributors 👷🏼
+2023-06-27 15:19:00,200 INFO NEWS: Since releasing v0.3.0, whave been working on re-architecting the Auto-GPT core to make it more extensible and make room for structural performance-oriented R&D.
+2023-06-27 15:19:00,200 INFO NEWS: 
+2023-06-27 15:19:00,200 INFO NEWS: Check out the contribution guide on our wiki:
+2023-06-27 15:19:00,200 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/wiki/Contributing
+2023-06-27 15:19:00,200 INFO NEWS: 
+2023-06-27 15:19:00,200 INFO NEWS: 🚀 v0.4.1 Release 🚀
+2023-06-27 15:19:00,200 INFO NEWS: Two weeks and 50+ pull requests have passed since v0.4.0, and we are happy to announce the release of v0.4.1!
+2023-06-27 15:19:00,200 INFO NEWS: 
+2023-06-27 15:19:00,200 INFO NEWS: Highlights and notable changes since v0.4.0:
+2023-06-27 15:19:00,200 INFO NEWS: - The .env.template is more readable and better explains the purpose of each environment variable.
+2023-06-27 15:19:00,200 INFO NEWS: - More dependable search
+2023-06-27 15:19:00,200 INFO NEWS:     - The CUSTOM_SEARCH_ENGINE_ID variable has been replaced to GOOGLE_CUSTOM_SEARCH_ENGINE_ID, make sure you update it.
+2023-06-27 15:19:00,200 INFO NEWS: - Better read_file
+2023-06-27 15:19:00,200 INFO NEWS: - More reliable python code execution
+2023-06-27 15:19:00,201 INFO NEWS: - Lots of JSON error fixes
+2023-06-27 15:19:00,201 INFO NEWS: - Directory-based plugins
+2023-06-27 15:19:00,201 INFO NEWS: 
+2023-06-27 15:19:00,201 INFO NEWS: Further fixes and changes 🛠️
+2023-06-27 15:19:00,201 INFO NEWS: Under the hood, we've done a bunch of work improving architectures and streamlining code. Most of that won't be user-visible
+2023-06-27 15:19:00,201 INFO NEWS: 
+2023-06-27 15:19:00,201 INFO NEWS: Take a look at the Release Notes on Github for the full changelog!
+2023-06-27 15:19:00,201 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/releases
+2023-06-27 15:19:00,201 INFO NEWS: 
+2023-06-27 15:19:00,400 INFO Welcome back!  Would you like me to return to being YTTitleGPT?
+2023-06-27 15:19:00,654 INFO  Asking user via keyboard...
+2023-06-27 15:19:12,494 INFO NOTE:All files/directories created by this agent can be found inside its workspace at: /app/autogpt/auto_gpt_workspace
+2023-06-27 15:19:12,880 INFO YTTitleGPT has been created with the following details:
+2023-06-27 15:19:13,063 INFO Name: YTTitleGPT
+2023-06-27 15:19:13,169 INFO Role: an AI assistant that helps YouTubers create catchy and engaging titles for their videos to increase views and subscribers.
+2023-06-27 15:19:13,551 INFO Goals: 
+2023-06-27 15:19:13,625 INFO - Analyze the content of your video and suggest relevant and attention-grabbing keywords to include in the title.
+2023-06-27 15:19:13,973 INFO - Provide multiple title options with varying lengths and styles to choose from.
+2023-06-27 15:19:14,327 INFO - Use data-driven insights to optimize the title for search engine optimization (SEO) and increase discoverability.
+2023-06-27 15:19:14,745 INFO - Continuously learn and adapt to your preferences and audience feedback to improve the effectiveness of title suggestions.
+2023-06-27 15:19:15,129 INFO - Offer additional tips and best practices for creating compelling titles that resonate with your target audience.
+2023-06-27 15:20:08,762 WARNING  plugins_config.yaml does not exist, creating base config.
+2023-06-27 15:20:09,829 INFO NEWS: Welcome to Auto-GPT!
+2023-06-27 15:20:09,830 INFO NEWS: Below you'll find the latest Auto-GPT News and updates regarding features!
+2023-06-27 15:20:09,830 INFO NEWS: If you don't wish to see this message, you can run Auto-GPT with the --skip-news flag.
+2023-06-27 15:20:09,830 INFO NEWS: 
+2023-06-27 15:20:09,830 INFO NEWS: ::NEW BULLETIN::
+2023-06-27 15:20:09,830 INFO NEWS: 
+2023-06-27 15:20:09,830 INFO NEWS: Website and Documentation Site 📰📖
+2023-06-27 15:20:09,830 INFO NEWS: Check out https://agpt.co, the official news & updates site for Auto-GPT!
+2023-06-27 15:20:09,830 INFO NEWS: The documentation also has a place here, at https://docs.agpt.co
+2023-06-27 15:20:09,830 INFO NEWS: 
+2023-06-27 15:20:09,830 INFO NEWS: For contributors 👷🏼
+2023-06-27 15:20:09,830 INFO NEWS: Since releasing v0.3.0, whave been working on re-architecting the Auto-GPT core to make it more extensible and make room for structural performance-oriented R&D.
+2023-06-27 15:20:09,830 INFO NEWS: 
+2023-06-27 15:20:09,830 INFO NEWS: Check out the contribution guide on our wiki:
+2023-06-27 15:20:09,830 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/wiki/Contributing
+2023-06-27 15:20:09,830 INFO NEWS: 
+2023-06-27 15:20:09,830 INFO NEWS: 🚀 v0.4.1 Release 🚀
+2023-06-27 15:20:09,830 INFO NEWS: Two weeks and 50+ pull requests have passed since v0.4.0, and we are happy to announce the release of v0.4.1!
+2023-06-27 15:20:09,830 INFO NEWS: 
+2023-06-27 15:20:09,830 INFO NEWS: Highlights and notable changes since v0.4.0:
+2023-06-27 15:20:09,830 INFO NEWS: - The .env.template is more readable and better explains the purpose of each environment variable.
+2023-06-27 15:20:09,830 INFO NEWS: - More dependable search
+2023-06-27 15:20:09,830 INFO NEWS:     - The CUSTOM_SEARCH_ENGINE_ID variable has been replaced to GOOGLE_CUSTOM_SEARCH_ENGINE_ID, make sure you update it.
+2023-06-27 15:20:09,830 INFO NEWS: - Better read_file
+2023-06-27 15:20:09,831 INFO NEWS: - More reliable python code execution
+2023-06-27 15:20:09,831 INFO NEWS: - Lots of JSON error fixes
+2023-06-27 15:20:09,831 INFO NEWS: - Directory-based plugins
+2023-06-27 15:20:09,831 INFO NEWS: 
+2023-06-27 15:20:09,831 INFO NEWS: Further fixes and changes 🛠️
+2023-06-27 15:20:09,831 INFO NEWS: Under the hood, we've done a bunch of work improving architectures and streamlining code. Most of that won't be user-visible
+2023-06-27 15:20:09,831 INFO NEWS: 
+2023-06-27 15:20:09,831 INFO NEWS: Take a look at the Release Notes on Github for the full changelog!
+2023-06-27 15:20:09,831 INFO NEWS: https://github.com/Significant-Gravitas/Auto-GPT/releases
+2023-06-27 15:20:09,831 INFO NEWS: 
+2023-06-27 15:20:16,356 INFO Welcome to Auto-GPT!  run with '--help' for more information.
+2023-06-27 15:20:16,612 INFO Create an AI-Assistant: input '--manual' to enter manual mode.
+2023-06-27 15:20:16,817 INFO  Asking user via keyboard...
+2023-06-27 15:20:33,399 INFO NOTE:All files/directories created by this agent can be found inside its workspace at: /app/autogpt/auto_gpt_workspace
+2023-06-27 15:20:33,719 INFO YTTitleGPT has been created with the following details:
+2023-06-27 15:20:33,958 INFO Name: YTTitleGPT
+2023-06-27 15:20:34,060 INFO Role: an AI assistant that helps YouTubers create catchy and engaging titles for their videos to increase views and subscribers.
+2023-06-27 15:20:34,422 INFO Goals: 
+2023-06-27 15:20:34,476 INFO - Analyze the content of your video and suggest relevant and attention-grabbing keywords to include in the title.
+2023-06-27 15:20:34,846 INFO - Provide multiple title options with varying lengths and styles to choose from.
+2023-06-27 15:20:35,134 INFO - Use data-driven insights to optimize the title for search engine optimization (SEO) and increase discoverability.
+2023-06-27 15:20:35,509 INFO - Continuously learn and adapt to your preferences and audience feedback to improve the effectiveness of title suggestions.
+2023-06-27 15:20:35,915 INFO - Offer additional tips and best practices for creating compelling titles that resonate with your target audience.

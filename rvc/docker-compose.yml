@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  rvc:
+    image: dannadori/vcclient:20230618_173205
+    ports:
+      - 18888:18888
+    restart: always
+    environment:
+      - EX_IP=192.168.100.4
+      - EX_PORT=18888
+    volumes:
+      - ./workspace/resources:/resources
+      - ./workspace/pretrain:/voice-changer/server/pretrain
+      - ./workspace/weights:/voice-changer/server/weights
+    command: -p 18888 --https true \
+        --content_vec_500 pretrain/checkpoint_best_legacy_500.pt  \
+        --hubert_base pretrain/hubert_base.pt \
+        --hubert_soft pretrain/hubert/hubert-soft-0d54a1f4.pt \
+        --nsf_hifigan pretrain/nsf_hifigan/model \
+        --hubert_base_jp pretrain/rinna_hubert_base_jp.pt \
+        --model_dir weights
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities:
+                - gpu
+                - utility # nvidia-smi
+                - compute # CUDA. Required to avoid "CUDA version: N/A"
+                - video   # NVDEC/NVENC. For instance to use a hardware accelerated ffmpeg. Skip it if you don't need it

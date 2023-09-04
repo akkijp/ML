@@ -23,7 +23,7 @@ services:
       jupyter-lab
       --allow-root
       --ip=0.0.0.0
-      --port=8888
+      --port=8000
       --no-browser
       --NotebookApp.token='41f1f99c-10be-43a8-b894-6f7341aa5c9a'
       --NotebookApp.password='41f1f99c-10be-43a8-b894-6f7341aa5c9a'

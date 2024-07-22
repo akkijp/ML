@@ -1,4 +1,6 @@
 #!/bin/bash
 
+#echo Building...
+#docker compose build --no-cache
 echo Launch...
-docker compose up --build -d
+docker compose up -d --build

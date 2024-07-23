@@ -1,8 +1,7 @@
 version: "3.9"
 services:
   editor:
-    build:
-      dockerfile: ./Dockerfile
+    image: ghcr.io/eclipse-theia/theia-blueprint/theia-ide:1.51.0
     ports:
       - 3000:3000
     volumes:

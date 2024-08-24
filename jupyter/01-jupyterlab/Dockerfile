@@ -1,4 +1,8 @@
-FROM cschranz/gpu-jupyter:v1.7_cuda-12.2_ubuntu-22.04
+# Define a build argument with a default value
+ARG BASE_IMAGE_VERSION=v1.7_cuda-12.2_ubuntu-22.04
+
+# Use the build argument in the FROM statement
+FROM cschranz/gpu-jupyter:${BASE_IMAGE_VERSION}
 
 USER root
 
@@ -63,57 +67,21 @@ RUN pip install --upgrade \
         lightgbm \
         optuna \
         shap \
-        torch \
         requests \
+        wandb \
+        huggingface_hub[cli]
+
+RUN pip install --upgrade \
+        torch==2.3 \
+        torchvision==0.18 \
         torchsummary \
         torchinfo \
-        wandb
+        torchtune \
+        lm_eval==0.4.*
 
+RUN conda update conda \
+    && conda update --all
 
 # docker install
 COPY docker_install.sh /tmp/
 RUN /tmp/docker_install.sh
-
-
-
-# Basic
-# RUN conda install -y -c conda-forge jupyterlab-git nodejs
-# RUN conda install -y -c huggingface transformers
-# RUN conda install -y sentencepiece
-
-########################################################
-# python 3.9 環境作成 (未完成)
-########################################################
-# RUN source ~/.bashrc \
-#     && conda init bash \
-#     && conda create -n py39 python=3.9 jupyterlab
-
-# SHELL ["/bin/bash", "-l", "-c"]
-# RUN conda init bash \
-#     && conda activate py39
-# RUN pip install ipykernel
-
-# # Install PyTorch with dependencies
-# RUN conda install --quiet --yes \
-#     pyyaml mkl mkl-include setuptools cmake cffi typing && \
-#     conda clean --all -f -y
-
-# RUN set -ex \
-#  && buildDeps=' \
-#     torch==1.13.1 \
-#     torchvision==0.14.1 \
-#     torchaudio==0.13.1 \
-#     torchviz==0.0.2 \
-# ' \
-#  && pip install --no-cache-dir torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118
-
-# RUN ipython kernel install --user --name=py39
-
-# ########################################################
-# # change to default
-# ########################################################
-# change jovyan
-# RUN chown -R "${NB_USER}:${NB_GID}" "/home/${NB_USER}"
-# SHELL ["/bin/sh", "-c"]
-# USER ${NB_UID}
-# RUN conda activate base

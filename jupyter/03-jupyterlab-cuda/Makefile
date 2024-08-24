@@ -1,5 +1,5 @@
 # Dockerイメージの名前
-IMAGE_NAME=akkijp/jupyterlab
+IMAGE_NAME=akkijp/jupyterlab-cuda
 
 # Dockerfileがあるディレクトリ
 DOCKERFILE_DIR=.

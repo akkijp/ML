@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   jupyterlab:
-    image: akkijp/jupyterlab-nginx:latest
+    image: akkijp/jupyterlab-python:latest
     shm_size: 16gb
     restart: always
     command: >
@@ -13,20 +13,22 @@ services:
       --no-browser
       --NotebookApp.token='25kskfisha'
       --NotebookApp.password='25kskfisha'
-      --notebook-dir=/workspace
+      --notebook-dir=/home/jovyan
     ports:
-      - 80:80
-      - 443:443
       - 8888:8888
       - 8000-8009:8000-8009
+      - 7860:7860
+      - 9001-9005:9001-9005
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
+      # - /var/run/docker.sock:/var/run/docker.sock
       - /mnt/workbench/jovyan/.cache:/home/jovyan/.cache
-      - ./workspace:/workspace
-      - ./workspace/user-settings:/home/jovyan/.jupyter/lab/user-settings
-      - /home/akki/github/akkijp/iris:/iris
+      - /mnt/workbench/conda:/opt/conda
+      - ./user-settings:/home/jovyan/.jupyter/lab/user-settings
+      - ./work:/home/jovyan/work
       - /home/akki/.ssh:/home/jovyan/.ssh
-
+      - /home/akki/github:/home/jovyan/github
+    devices:
+      - /dev/video0:/dev/video0:mwr
     # GPUを使う場合の設定
     environment:
       - "NVIDIA_VISIBLE_DEVICES=all"

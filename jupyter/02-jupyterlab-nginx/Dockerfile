@@ -13,11 +13,6 @@ RUN apt-get update \
 ADD default.conf /etc/nginx/conf.d
 ADD ssl /etc/nginx/ssl
 
-# SHELL ["/bin/bash", "-o", "pipefail", "-c"]
-# ENTRYPOINT ["tini", "-g", "--", "start.sh"]
-# CMD ["start-notebook.py"]
-
-
 COPY docker-entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 
